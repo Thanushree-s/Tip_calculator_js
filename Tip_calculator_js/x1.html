@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        function submit(){
+            var x1=document.getElementById('name').value;
+            var x2=document.getElementById('email').value;
+            var x3=document.getElementById('phone').value;
+            alert("name: "+x1);
+        }
+    </script>
+        <body>
+            <form>
+                <label for="name"></label>
+                <input type="text" id="name" placeholder="Enter name"><br>
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="enter email"><br>
+                <label for="phone"></label>
+                <input type="phone" id="phone" placeholder="enter phone number"><br>
+                <input type="button" value="submit" onclick="submit()">
+                          </form>
+        </body>
+ </html>
